@@ -79,6 +79,9 @@ public class Classroom extends World
         ShahilPatel shahilpatel = new ShahilPatel("Shahil", "Patel", 2, 4);
         addObject(shahilpatel, 2, 4);
         shahilpatel.sitDown();
+        SaiBalakumar saibalakumar = new SaiBalakumar("Sai", "Balakumar", 2, 3);
+        addObject(saibalakumar, 2, 3);
+        saibalakumar.sitDown();
         
         AnishShivamurthy anishshivamurthy = new AnishShivamurthy("Anish", "Shivamurthy", 1, 1);
         addObject(anishshivamurthy, 1, 1);
