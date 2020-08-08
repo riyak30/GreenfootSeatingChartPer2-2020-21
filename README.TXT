@@ -14,6 +14,13 @@ CONTRIBUTERS:               Kilgore Trout
                             Tanish Baranwal
                             Keenan Kalra
                             Anirudh Nagasamudra
+                            Akash Darbha
+                            Eric Zheng
+                            Joey Huang
+                            Nibodh Vallapureddy
+                            Ridhi Tamirasa
+                            Shahil Patel
+                            Yash Bansal
                             (Add you name here once your code 
                              is added and correct)
 
