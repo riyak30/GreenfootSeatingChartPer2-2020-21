@@ -12,6 +12,7 @@ AUTHORS:                    Mr. Kaehms and CSA students
 CONTRIBUTERS:               Kilgore Trout
                             Tinhphong Nguyen
                             Tanish Baranwal
+                            Trisha Moorkoth
                             Keenan Kalra
                             Anirudh Nagasamudra
                             Akash Darbha
@@ -22,6 +23,7 @@ CONTRIBUTERS:               Kilgore Trout
                             Shahil Patel
                             Yash Bansal
                             Julia Zhao
+                            Anish Shivamurthy
                             (Add you name here once your code 
                              is added and correct)
 
