@@ -46,6 +46,10 @@ public class Classroom extends World
         AkashDarbha akashdarbha = new AkashDarbha("Akash", "Darbha", 3, 7);
         addObject(akashdarbha, 3, 7);
         akashdarbha.sitDown();  
+
+	 SharvinM SharvinManjrekar = new SharvinM("Sharvin", "Manjrekar", 4, 4);
+        addObject(SharvinManjrekar, 4, 4);
+        SharvinManjrekar.sitDown();
         
 
         KeenanKalra keenankalra = new KeenanKalra("Keenan", "Kalra", 2, 2);
