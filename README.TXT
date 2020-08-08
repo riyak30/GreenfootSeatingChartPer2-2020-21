@@ -21,6 +21,7 @@ CONTRIBUTERS:               Kilgore Trout
                             Ridhi Tamirasa
                             Shahil Patel
                             Yash Bansal
+                            Julia Zhao
                             (Add you name here once your code 
                              is added and correct)
 
