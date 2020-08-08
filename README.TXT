@@ -12,8 +12,7 @@ AUTHORS:                    Mr. Kaehms and CSA students
 CONTRIBUTERS:               Kilgore Trout
                             Tinhphong Nguyen
                             Tanish Baranwal
-                            (Add you name here once your code 
-                             is added and correct)
+                            Trisha Moorkoth
 
 USER INSTRUCTIONS:
 
