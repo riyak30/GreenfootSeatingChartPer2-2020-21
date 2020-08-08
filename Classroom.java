@@ -96,6 +96,10 @@ public class Classroom extends World
         AnishShivamurthy anishshivamurthy = new AnishShivamurthy("Anish", "Shivamurthy", 1, 1);
         addObject(anishshivamurthy, 1, 1);
         anishshivamurthy.sitDown();
+        
+        JuliaZhao juliazhao = new JuliaZhao("Julia", "Zhao", 1, 8);
+        addObject(juliazhao, 1, 8);
+        juliazhao.sitDown();
     }  
 
 }
