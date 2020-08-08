@@ -98,7 +98,7 @@ public class SaiBalakumar extends Student implements SpecialInterestOrHobby
          // Create a blackboard image and write to it, etc
          // Use an animated gif and dub over with audio - see "controls/show sound recoder"
          // from main greenfoot menu for a simple to use soud editor
-        
+        bluej.utility.Utility.openWebBrowser("https://tiny.cc/sortinglessoncsa");
          
         // You can end the lesson and "sitDown" once the lesson is complete, or once
         // someone answers "yes" to the sitdown question
