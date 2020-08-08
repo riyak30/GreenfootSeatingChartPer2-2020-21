@@ -12,6 +12,7 @@ AUTHORS:                    Mr. Kaehms and CSA students
 CONTRIBUTERS:               Kilgore Trout
                             Tinhphong Nguyen
                             Tanish Baranwal
+                            Trisha Moorkoth
                             Keenan Kalra
                             Anirudh Nagasamudra
                             Akash Darbha
