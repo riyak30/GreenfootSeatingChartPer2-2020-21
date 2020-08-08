@@ -42,6 +42,10 @@ public class Classroom extends World
         TinhphongN tinhphongnguyen = new TinhphongN("Tinhphong", "Nguyen", 1, 2);
         addObject(tinhphongnguyen, 1, 2);
         tinhphongnguyen.sitDown();
+        
+        ChelseaLee chelsealee = new ChelseaLee("Chelsea", "Lee", 1, 4);
+        addObject(chelsealee, 1, 4);
+        chelsealee.sitDown();
 
         TanishB tanishbaranwal = new TanishB("Tanish", "Baranwal", 1, 3);
         addObject(tanishbaranwal, 1, 3);
