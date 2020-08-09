@@ -95,8 +95,8 @@ public class Classroom extends World
         addObject(anishshivamurthy, 5, 6);
         anishshivamurthy.sitDown();
         
-        JuliaZhao juliazhao = new JuliaZhao("Julia", "Zhao", 1, 8);
-        addObject(juliazhao, 1, 8);
+        JuliaZhao juliazhao = new JuliaZhao("Julia", "Zhao", 1, 6);
+        addObject(juliazhao, 1, 6);
         juliazhao.sitDown();
         
         KellieTai kellietai = new KellieTai("Kellie", "Tai", 3, 3);
