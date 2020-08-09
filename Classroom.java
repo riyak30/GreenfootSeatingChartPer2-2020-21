@@ -47,7 +47,7 @@ public class Classroom extends World
         addObject(akashdarbha, 3, 7);
         akashdarbha.sitDown();  
 
-	      SharvinM SharvinManjrekar = new SharvinM("Sharvin", "Manjrekar", 4, 4);
+	SharvinM SharvinManjrekar = new SharvinM("Sharvin", "Manjrekar", 4, 4);
         addObject(SharvinManjrekar, 4, 4);
         SharvinManjrekar.sitDown();
   
@@ -75,11 +75,11 @@ public class Classroom extends World
         addObject(joeyhuang, 5, 5);
         joeyhuang.sitDown(); 
         
-        YashBansal yashbansal = new YashBansal("Yash", "Bansal", 1, 4);
+        YashBansal yashbansal = new YashBansal("Yash", "Bansal", 3, 1);
         addObject(yashbansal, 3, 1);
         yashbansal.sitDown();
         
-        TrishaMoorkoth trishamoorkoth = new TrishaMoorkoth("Trisha", "Moorkoth", 1, 4);
+        TrishaMoorkoth trishamoorkoth = new TrishaMoorkoth("Trisha", "Moorkoth", 6, 2);
         addObject(trishamoorkoth, 6, 2);
         trishamoorkoth.sitDown();
 
@@ -87,8 +87,8 @@ public class Classroom extends World
         addObject(shahilpatel, 2, 4);
         shahilpatel.sitDown();
         
-        SaiBalakumar saibalakumar = new SaiBalakumar("Sai", "Balakumar", 2, 3);
-        addObject(saibalakumar, 2, 3);
+        SaiBalakumar saibalakumar = new SaiBalakumar("Sai", "Balakumar", 3, 2);
+        addObject(saibalakumar, 3, 2);
         saibalakumar.sitDown();
         
         AnishShivamurthy anishshivamurthy = new AnishShivamurthy("Anish", "Shivamurthy", 5, 6);
@@ -99,8 +99,8 @@ public class Classroom extends World
         addObject(juliazhao, 1, 8);
         juliazhao.sitDown();
         
-        KellieTai kellietai = new KellieTai("Kellie", "Tai", 6, 7);
-        addObject(kellietai, 6, 7);
+        KellieTai kellietai = new KellieTai("Kellie", "Tai", 3, 3);
+        addObject(kellietai, 3, 3);
         kellietai.sitDown();
     }  
 
