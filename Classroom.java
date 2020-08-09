@@ -91,9 +91,13 @@ public class Classroom extends World
         addObject(saibalakumar, 2, 3);
         saibalakumar.sitDown();
         
-        AnishShivamurthy anishshivamurthy = new AnishShivamurthy("Anish", "Shivamurthy", 1, 1);
-        addObject(anishshivamurthy, 1, 1);
+        AnishShivamurthy anishshivamurthy = new AnishShivamurthy("Anish", "Shivamurthy", 5, 6);
+        addObject(anishshivamurthy, 5, 6);
         anishshivamurthy.sitDown();
+        
+        JuliaZhao juliazhao = new JuliaZhao("Julia", "Zhao", 1, 8);
+        addObject(juliazhao, 1, 8);
+        juliazhao.sitDown();
         
         KellieTai kellietai = new KellieTai("Kellie", "Tai", 6, 7);
         addObject(kellietai, 6, 7);
