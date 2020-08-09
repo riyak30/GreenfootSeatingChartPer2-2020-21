@@ -35,7 +35,6 @@ public class Classroom extends World
         // Make sure to match your first and last name to the class file you created.
 
         /* Example */
-
         EricZheng ericzheng = new EricZheng("Eric", "Zheng", 6, 6);
         addObject(ericzheng, 6, 6);
         ericzheng.sitDown();
@@ -51,8 +50,7 @@ public class Classroom extends World
 	      SharvinM SharvinManjrekar = new SharvinM("Sharvin", "Manjrekar", 4, 4);
         addObject(SharvinManjrekar, 4, 4);
         SharvinManjrekar.sitDown();
-        
-
+  
         KeenanKalra keenankalra = new KeenanKalra("Keenan", "Kalra", 2, 2);
         addObject(keenankalra, 2, 2);
         keenankalra.sitDown();
@@ -76,7 +74,7 @@ public class Classroom extends World
         JoeyHuang joeyhuang = new JoeyHuang("Joey", "Huang", 5, 5);
         addObject(joeyhuang, 5, 5);
         joeyhuang.sitDown(); 
-
+        
         YashBansal yashbansal = new YashBansal("Yash", "Bansal", 1, 4);
         addObject(yashbansal, 3, 1);
         yashbansal.sitDown();
@@ -93,13 +91,17 @@ public class Classroom extends World
         addObject(saibalakumar, 2, 3);
         saibalakumar.sitDown();
         
-        AnishShivamurthy anishshivamurthy = new AnishShivamurthy("Anish", "Shivamurthy", 1, 1);
-        addObject(anishshivamurthy, 1, 1);
+        AnishShivamurthy anishshivamurthy = new AnishShivamurthy("Anish", "Shivamurthy", 5, 6);
+        addObject(anishshivamurthy, 5, 6);
         anishshivamurthy.sitDown();
         
         JuliaZhao juliazhao = new JuliaZhao("Julia", "Zhao", 1, 8);
         addObject(juliazhao, 1, 8);
         juliazhao.sitDown();
+        
+        KellieTai kellietai = new KellieTai("Kellie", "Tai", 6, 7);
+        addObject(kellietai, 6, 7);
+        kellietai.sitDown();
     }  
 
 }
