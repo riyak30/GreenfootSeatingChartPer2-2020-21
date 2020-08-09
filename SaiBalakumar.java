@@ -41,8 +41,8 @@ public class SaiBalakumar extends Student implements SpecialInterestOrHobby
     public SaiBalakumar() {
         firstName="Sai";
         lastName="Balakumar";
-        myRow=1;
-        mySeat=1;
+        myRow=3;
+        mySeat=2;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
