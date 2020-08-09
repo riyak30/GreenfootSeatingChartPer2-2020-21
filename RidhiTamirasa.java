@@ -41,8 +41,8 @@ public class RidhiTamirasa extends Student implements SpecialInterestOrHobby
     public RidhiTamirasa() {
         firstName="Ridhi";
         lastName="Tamirasa";
-        myRow=1;
-        mySeat=1;
+        myRow=2;
+        mySeat=3;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
