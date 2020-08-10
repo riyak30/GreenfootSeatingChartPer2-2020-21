@@ -41,6 +41,15 @@ public class Classroom extends World
         DerekXu derekxu = new DerekXu("Derek", "Xu", 2, 4);
         addObject(derekxu, 2, 4);
         derekxu.sitDown();
+
+        KilgoreTrout kilgoretrout = new KilgoreTrout("Kilgore", "Trout", 1, 1);
+        addObject(kilgoretrout, 1, 1);
+        kilgoretrout.sitDown();
+        
+        KaifJeelani kaifjeelani = new KaifJeelani("Kaif", "Jeelani", 2,2);
+        addObject(kaifjeelani, 2, 2);
+        kaifjeelani.sitDown();
+         
         
         EricZheng ericzheng = new EricZheng("Eric", "Zheng", 6, 6);
         addObject(ericzheng, 6, 6);
