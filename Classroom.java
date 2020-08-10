@@ -122,6 +122,10 @@ public class Classroom extends World
         KellieTai kellietai = new KellieTai("Kellie", "Tai", 3, 3);
         addObject(kellietai, 3, 3);
         kellietai.sitDown();
+        
+        AyushBandopadhyay ayushbandopadhyay = new AyushBandopadhyay("Ayush", "Bandopadhyay", 5, 3);
+        addObject(ayushbandopadhyay, 5, 3);
+        ayushbandopadhyay.sitDown();
     }  
 
 }
