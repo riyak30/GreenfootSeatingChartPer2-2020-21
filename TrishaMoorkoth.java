@@ -1,17 +1,18 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
+import bluej.*;
 /**
- * The KilgoreTrout class can be used as a model for your own class that represents you and your seating location in AP CSA
+ * 
  * 
  * @author Mr. Kaehms
+ * @author Trisha Moorkoth
  * @version 2.0 Aug 13, 2019
  * @version 3.0 July 21, 2020
  */
-public class RidhiTamirasa extends Student implements SpecialInterestOrHobby
+public class TrishaMoorkoth extends Student implements SpecialInterestOrHobby
 {
 
     /**
-     * Constructor for the KilgoreTrout class.
+     * Constructor for the TrishaMoorkoth class.
      * Constructors are special methods with the same exact name as the class name.  
      * Constructors to not have return types.
      * Constructors can be overloaded. This means we can call a constructor with different sets of parameter
@@ -22,7 +23,7 @@ public class RidhiTamirasa extends Student implements SpecialInterestOrHobby
      * @param int s (seat number within row seating arrangement)
      * 
      */
-    public RidhiTamirasa(String f, String l, int r, int s) {
+    public TrishaMoorkoth(String f, String l, int r, int s) {
         firstName=f;
         lastName=l;
         myRow=r;
@@ -38,17 +39,17 @@ public class RidhiTamirasa extends Student implements SpecialInterestOrHobby
      * Pay attention to how the row and seat variables set the location of the image.  1,1 is the first cell in the upper left
      * of the classroom.
      */
-    public RidhiTamirasa() {
-        firstName="Ridhi";
-        lastName="Tamirasa";
-        myRow=2;
-        mySeat=3;
+    public TrishaMoorkoth() {
+       firstName="Trisha";
+       lastName="Moorkoth";
+       myRow=6;
+       mySeat=2;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
-        soundFile=firstName.toLowerCase()+ lastName.toLowerCase()+".wav";
-        setImage(portraitFile);
-        sitting=true;
+       soundFile=firstName.toLowerCase()+ lastName.toLowerCase()+".wav";
+       setImage(portraitFile);
+       sitting=true;
     }
     
      /**
@@ -66,12 +67,12 @@ public class RidhiTamirasa extends Student implements SpecialInterestOrHobby
                 getName();
                 sayName(soundFile);
             
-                myHobby("I like to read and watch TV!");
+                myHobby("I like to play violin and sleep");
             // Create a "special method for your class and put the call here.  You can twirl your image, resize it, move it around, change transparancy, or a 
             // combination of all of those types of actions, or more. Make sure to save the original image if you manipulate it, so that you can put it back.
             // Call the sitDown() method to move back  to your seat
             
-                circleClass();  // Kilgore Trount's special method... Please write one of your own. You can use this, but please modify it and be creative.
+                diagonalUp();// my animation
                 provideLesson();
                 sitDown();
             }
@@ -94,9 +95,14 @@ public class RidhiTamirasa extends Student implements SpecialInterestOrHobby
         while (! sitting) {
         String q=Greenfoot.ask("Are you ready to start (yes/no)");
         if (q.contains("yes")){
-         bluej.utility.Utility.openWebBrowser("https://sites.google.com/dublinusd.org/seating-chart-demo-lesson/home?authuser=0%22");
+         // put in your lesson here - you can open up a browser for a screencast
+         // Create a blackboard image and write to it, etc
+         // Use an animated gif and dub over with audio - see "controls/show sound recoder"
+         // from main greenfoot menu for a simple to use soud editor
+         bluej.utility.Utility.openWebBrowser("https://drive.google.com/file/d/1BrYFVFSqf7KIi3GXVc4EId76xmf_WrA1/view?usp=sharing");
          
-       
+        // You can end the lesson and "sitDown" once the lesson is complete, or once
+        // someone answers "yes" to the sitdown question
         }
         else {
           q=Greenfoot.ask("I don't understand the question... May I sit down?"); 
@@ -112,16 +118,42 @@ public class RidhiTamirasa extends Student implements SpecialInterestOrHobby
         // may not need
     }
     /**
-     * This is a local method specific to the KilgoreTrout class used to animate the character once the image is clicked on.
-     * You should write your own methods to perform your own animation for your character/avatar.
+     * perform your own animation for your character/avatar.
      */
-    public void circleClass(){
-       
-         Greenfoot.delay(10);
+    public void diagonalUp(){
+        setLocation(0,0);
+        Greenfoot.delay(10);
+        
         // move right
-          GreenfootImage image = getImage();
-         image.scale(image.getWidth() - 150, image.getHeight() - 150);
-          setImage(image);
+        for (int i=1;i<=9;i++){
+            setLocation(i,i);
+            Greenfoot.delay(10);
+        }
+        // move Forward
+        for (int i=5;i>=0;i--){
+            setLocation(9,i);
+            Greenfoot.delay(10);
+        }  
+        /**
+        //move left
+        for (int i=1;i>=0;i--){
+            setLocation(i,i);
+            Greenfoot.delay(10);
+        }
+        // move back
+        for (int i=1;i<=5;i++){
+            setLocation(9,i);
+            Greenfoot.delay(10);
+        } 
+        
+         // move left
+        for (int i=9;i>=0;i--){
+            setLocation(i,i);
+            Greenfoot.delay(10);
+        }    
+        **/
+          
+        
            Greenfoot.delay(20);
            returnToSeat();
     }

@@ -41,8 +41,8 @@ public class ShahilPatel extends Student implements SpecialInterestOrHobby
     public ShahilPatel() {
         firstName="Shahil";
         lastName="Patel";
-        myRow=1;
-        mySeat=1;
+        myRow=2;
+        mySeat=4;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";

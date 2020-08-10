@@ -42,8 +42,8 @@ public class ChelseaLee extends Student implements SpecialInterestOrHobby
     public ChelseaLee() {
         firstName="Chelsea";
         lastName="Lee";
-        myRow=1;
-        mySeat=1;
+        myRow=4;
+        mySeat=6;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";

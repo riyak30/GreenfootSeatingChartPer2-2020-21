@@ -43,8 +43,8 @@ int i;
     public EricZheng() {
         firstName="Eric";
         lastName="Zheng";
-        myRow=4;
-        mySeat=4;
+        myRow=6;
+        mySeat=6;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";

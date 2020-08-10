@@ -35,29 +35,33 @@ public class Classroom extends World
         // Make sure to match your first and last name to the class file you created.
 
         /* Example */
-<<<<<<< HEAD
         EricZheng ericzheng = new EricZheng("Eric", "Zheng", 4, 4);
         addObject(ericzheng, 1, 1);
+
+        DerekXu derekxu = new DerekXu("Derek", "Xu", 2, 4);
+        addObject(derekxu, 2, 4);
+        derekxu.sitDown();
+        
+        EricZheng ericzheng = new EricZheng("Eric", "Zheng", 6, 6);
+        addObject(ericzheng, 6, 6);
         ericzheng.sitDown();
-=======
+
         ArvindKumar arvindkumar = new ArvindKumar("Arvind", "Kumar", 3, 3);
         addObject(arvindkumar, 3, 3);
         arvindkumar.sitDown();
->>>>>>> d5505cbb7da2af793b15fa302bb6f2be05cc17f2
          
         RidhiTamirasa rtk = new RidhiTamirasa("Ridhi", "Tamirasa", 2, 3);
-        addObject(rtk, 1, 1);
+        addObject(rtk, 2, 3);
         rtk.sitDown();
 
         AkashDarbha akashdarbha = new AkashDarbha("Akash", "Darbha", 3, 7);
         addObject(akashdarbha, 3, 7);
         akashdarbha.sitDown();  
 
-	 SharvinM SharvinManjrekar = new SharvinM("Sharvin", "Manjrekar", 4, 4);
+	SharvinM SharvinManjrekar = new SharvinM("Sharvin", "Manjrekar", 4, 4);
         addObject(SharvinManjrekar, 4, 4);
         SharvinManjrekar.sitDown();
-        
-
+  
         KeenanKalra keenankalra = new KeenanKalra("Keenan", "Kalra", 2, 2);
         addObject(keenankalra, 2, 2);
         keenankalra.sitDown();
@@ -81,21 +85,34 @@ public class Classroom extends World
         JoeyHuang joeyhuang = new JoeyHuang("Joey", "Huang", 5, 5);
         addObject(joeyhuang, 5, 5);
         joeyhuang.sitDown(); 
-
-        YashBansal yashbansal = new YashBansal("Yash", "Bansal", 1, 4);
+        
+        YashBansal yashbansal = new YashBansal("Yash", "Bansal", 3, 1);
         addObject(yashbansal, 3, 1);
         yashbansal.sitDown();
         
+        TrishaMoorkoth trishamoorkoth = new TrishaMoorkoth("Trisha", "Moorkoth", 6, 2);
+        addObject(trishamoorkoth, 6, 2);
+        trishamoorkoth.sitDown();
+
         ShahilPatel shahilpatel = new ShahilPatel("Shahil", "Patel", 2, 4);
         addObject(shahilpatel, 2, 4);
         shahilpatel.sitDown();
-        SaiBalakumar saibalakumar = new SaiBalakumar("Sai", "Balakumar", 2, 3);
-        addObject(saibalakumar, 2, 3);
+        
+        SaiBalakumar saibalakumar = new SaiBalakumar("Sai", "Balakumar", 3, 2);
+        addObject(saibalakumar, 3, 2);
         saibalakumar.sitDown();
         
-        AnishShivamurthy anishshivamurthy = new AnishShivamurthy("Anish", "Shivamurthy", 1, 1);
-        addObject(anishshivamurthy, 1, 1);
+        AnishShivamurthy anishshivamurthy = new AnishShivamurthy("Anish", "Shivamurthy", 5, 6);
+        addObject(anishshivamurthy, 5, 6);
         anishshivamurthy.sitDown();
+        
+        JuliaZhao juliazhao = new JuliaZhao("Julia", "Zhao", 1, 6);
+        addObject(juliazhao, 1, 6);
+        juliazhao.sitDown();
+        
+        KellieTai kellietai = new KellieTai("Kellie", "Tai", 3, 3);
+        addObject(kellietai, 3, 3);
+        kellietai.sitDown();
     }  
 
 }

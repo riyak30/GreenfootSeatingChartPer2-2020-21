@@ -41,7 +41,7 @@ public class YashBansal extends Student implements SpecialInterestOrHobby
     public YashBansal() {
         firstName="Yash";
         lastName="Bansal";
-        myRow=1;
+        myRow=3;
         mySeat=1;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".JPG";
