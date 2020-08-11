@@ -24,6 +24,7 @@ CONTRIBUTERS:               Kilgore Trout
                             Yash Bansal
                             Julia Zhao
                             Anish Shivamurthy
+			    Eshan Bathula
                             (Add you name here once your code 
                              is added and correct)
 
