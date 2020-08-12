@@ -25,6 +25,7 @@ CONTRIBUTERS:               Kilgore Trout
                             Julia Zhao
                             Anish Shivamurthy
 			    Eshan Bathula
+			    Stacy Glushchenko
                             (Add you name here once your code 
                              is added and correct)
 
