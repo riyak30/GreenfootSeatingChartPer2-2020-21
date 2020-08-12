@@ -10,6 +10,21 @@ HOW TO START THIS PROJECT:  To start this project, assuming that you have Greenf
 AUTHORS:                    Mr. Kaehms and CSA students
 
 CONTRIBUTERS:               Kilgore Trout
+                            Tinhphong Nguyen
+                            Tanish Baranwal
+                            Trisha Moorkoth
+                            Keenan Kalra
+                            Anirudh Nagasamudra
+                            Akash Darbha
+                            Eric Zheng
+                            Joey Huang
+                            Nibodh Vallapureddy
+                            Ridhi Tamirasa
+                            Shahil Patel
+                            Yash Bansal
+                            Julia Zhao
+                            Anish Shivamurthy
+			    Eshan Bathula
                             (Add you name here once your code 
                              is added and correct)
 
