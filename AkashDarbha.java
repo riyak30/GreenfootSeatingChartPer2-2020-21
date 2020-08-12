@@ -41,7 +41,7 @@ public class AkashDarbha extends Student
         firstName="Akash";
         lastName="Darbha";
         myRow=3;
-        mySeat=7;
+        mySeat=4;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+"akashdarbha.jpg";
        standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"lebronjames.jpg";

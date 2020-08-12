@@ -38,8 +38,8 @@ public class AnirudhNagasamudra extends Student implements SpecialInterestOrHobb
     public AnirudhNagasamudra() {
         firstName="Anirudh";
         lastName="Nagasamudra";
-        myRow=9;
-        mySeat=5;
+        myRow=5;
+        mySeat=4;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";

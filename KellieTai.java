@@ -25,8 +25,8 @@ public class KellieTai extends Student implements SpecialInterestOrHobby
     public KellieTai(String f, String l, int r, int s) {
         firstName=f;
         lastName=l;
-        myRow=3;
-        mySeat=3;
+        myRow=1;
+        mySeat=4;
         portraitFile=f.toLowerCase()+l.toLowerCase()+".jpg";    // Make sure to name your image files firstlast.jpg, all lowercase!!!
         standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
         soundFile=f.toLowerCase()+l.toLowerCase()+".wav";  // Make sure to name your sound files firstlast.wav, all lowercase!!!

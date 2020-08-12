@@ -37,8 +37,8 @@ public class JoeyHuang extends Student implements SpecialInterestOrHobby
     public JoeyHuang() {
         firstName="Joey";
         lastName="Huang";
-        myRow=5;
-        mySeat=5;
+        myRow=2;
+        mySeat=1;
         // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
         portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".png";
         standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.png";

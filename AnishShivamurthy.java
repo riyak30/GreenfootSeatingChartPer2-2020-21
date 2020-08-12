@@ -25,9 +25,9 @@ public class AnishShivamurthy extends Student implements SpecialInterestOrHobby
     public AnishShivamurthy(String f, String l, int r, int s) {
         firstName=f;
         lastName=l;
-        myRow=5;
-        mySeat=6;
-         portraitFile=f.toLowerCase()+l.toLowerCase()+".jpg";    // Make sure to name your image files firstlast.jpg, all lowercase!!!
+        myRow=4;
+        mySeat=3;
+        portraitFile=f.toLowerCase()+l.toLowerCase()+".jpg";    // Make sure to name your image files firstlast.jpg, all lowercase!!!
         standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
         soundFile=f.toLowerCase()+l.toLowerCase()+".wav";  // Make sure to name your sound files firstlast.wav, all lowercase!!!
         setImage(portraitFile);

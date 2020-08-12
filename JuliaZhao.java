@@ -41,7 +41,7 @@ public class JuliaZhao extends Student implements StudentAthlete
         firstName = "Julia";
         lastName = "Zhao";
         myRow = 1;
-        mySeat = 6;
+        mySeat = 3;
         // imgFile=firstName.toLowerCase() + lastName.toLowerCase() +".jpg";
         portraitFile = "juliazhao.jpg";        
         standingFile = "juliazhao-standing.jpg";

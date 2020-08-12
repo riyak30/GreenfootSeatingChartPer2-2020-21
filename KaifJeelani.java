@@ -39,7 +39,7 @@ public class KaifJeelani extends Student implements SpecialInterestOrHobby
     public KaifJeelani() {
         firstName="Kaif";
         lastName="Jeelani   ";
-        myRow=2;
+        myRow=5;
         mySeat=2;
         // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
         portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
