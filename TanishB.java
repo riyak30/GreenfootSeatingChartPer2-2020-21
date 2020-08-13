@@ -25,7 +25,7 @@ public class TanishB extends Student implements SpecialInterestOrHobby
         mySeat=s;
         portraitFile=f.toLowerCase()+l.toLowerCase()+".jpg";    // Make sure to name your image files firstlast.jpg, all lowercase!!!
         standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
-        soundFile=f.toLowerCase()+l.toLowerCase()+".wav";  // Make sure to name your sound files firstlast.wav, all lowercase!!!
+        soundFile=f.toLowerCase()+l.toLowerCase()+".mp3";  // Make sure to name your sound files firstlast.wav, all lowercase!!!
         GreenfootImage image = new GreenfootImage(portraitFile);
         image.scale(13, 25);
         setImage(image);
