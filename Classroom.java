@@ -122,6 +122,11 @@ public class Classroom extends World
         AyushBandopadhyay ayushbandopadhyay = new AyushBandopadhyay("Ayush", "Bandopadhyay", 5, 3);
         addObject(ayushbandopadhyay, 5, 3);
         ayushbandopadhyay.sitDown();
+        
+        NiruSuravarjjala nirusuravarjjala = new NiruSuravarjjala("Niru", "Suravarjjala", 1, 5);
+        addObject(nirusuravarjjala, 1, 5);
+        nirusuravarjjala.sitDown();
+
     }  
 
 }
