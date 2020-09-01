@@ -33,8 +33,11 @@ public class Classroom extends World
     {
         // Add three lines to this doc with your class constructor and your row and seat number
         // Make sure to match your first and last name to the class file you created.
+        
+        JoshuaChon joshuachon = new JoshuaChon("Joshua", "Chon", 1, 6);
+        addObject(joshuachon, 1, 6);
+        joshuachon.sitDown();
 
-        /* Example */
         DerekXu derekxu = new DerekXu("Derek", "Xu", 2, 4);
         addObject(derekxu, 2, 4);
         derekxu.sitDown();
@@ -46,6 +49,7 @@ public class Classroom extends World
         KaifJeelani kaifjeelani = new KaifJeelani("Kaif", "Jeelani", 5,2);
         addObject(kaifjeelani, 5, 2);
         kaifjeelani.sitDown();
+
          
         EricZheng ericzheng = new EricZheng("Eric", "Zheng", 6, 1);
         addObject(ericzheng, 6, 1);
@@ -126,6 +130,7 @@ public class Classroom extends World
         NiruSuravarjjala nirusuravarjjala = new NiruSuravarjjala("Niru", "Suravarjjala", 1, 5);
         addObject(nirusuravarjjala, 1, 5);
         nirusuravarjjala.sitDown();
+        
 
     }  
 
