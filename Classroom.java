@@ -39,6 +39,9 @@ public class Classroom extends World
         addObject(kilgoretrout, 1, 1);
         kilgoretrout.sitDown();
          
+        ErikaTran erikatran = new ErikaTran("Erika", "Tran", 1, 2);
+        addObject(erikatran, 1, 2);
+        erikatran.sitDown();
         
 
 
