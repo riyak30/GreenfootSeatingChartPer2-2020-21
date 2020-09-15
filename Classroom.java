@@ -59,6 +59,9 @@ public class Classroom extends World
         addObject(arvindkumar, 3, 3);
         arvindkumar.sitDown();
          
+        ErikaTran erikatran = new ErikaTran("Erika", "Tran", 1, 2);
+        addObject(erikatran, 1, 2);
+        erikatran.sitDown();
         RidhiTamirasa rtk = new RidhiTamirasa("Ridhi", "Tamirasa", 2, 3);
         addObject(rtk, 2, 3);
         rtk.sitDown();
